@@ -62,6 +62,14 @@
 
 </details>
 
+## 🔗 Mirrors
+
+| Name              | Upstream Repo                                                | Mirror                                                         |
+|-------------------|--------------------------------------------------------------|----------------------------------------------------------------|
+| Simple-Web-Server | https://gitlab.com/eidheim/Simple-Web-Server.git             | https://github.com/LizardByte-infrastructure/Simple-Web-Server |
+| wayland-protocols | https://gitlab.freedesktop.org/wayland/wayland-protocols.git | https://github.com/LizardByte-infrastructure/wayland-protocols |
+| wlr-protocols     | https://gitlab.freedesktop.org/wlroots/wlr-protocols.git     | https://github.com/LizardByte-infrastructure/wlr-protocols     |
+
 ## 💲 Donate
 [![GitHub Sponsors](https://img.shields.io/github/sponsors/lizardbyte?label=Github%20Sponsors&style=for-the-badge&color=green&logo=githubsponsors)](https://github.com/sponsors/LizardByte)
 [![Patreon](https://img.shields.io/badge/dynamic/json?color=green&label=Patreon&style=for-the-badge&query=patron_count&url=https%3A%2F%2Fapp.lizardbyte.dev%2Fdashboard%2Fpatreon%2FLizardByte.json&logo=patreon)](https://www.patreon.com/LizardByte)
