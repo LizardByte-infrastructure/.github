@@ -19,6 +19,7 @@
 <div align="center">
 [
   <a href="#-projects">Projects</a> •
+  <a href="#-mirrors">Mirrors</a> •
   <a href="#-donate">Donate</a> •
   <a href="#-social">Social</a> •
   <a href="#-support">Support</a> •
@@ -64,11 +65,58 @@
 
 ## 🔗 Mirrors
 
-| Name              | Upstream Repo                                                | Mirror                                                             |
-|-------------------|--------------------------------------------------------------|--------------------------------------------------------------------|
-| Simple-Web-Server | https://gitlab.com/eidheim/Simple-Web-Server.git             | https://github.com/LizardByte-infrastructure/Simple-Web-Server.git |
-| wayland-protocols | https://gitlab.freedesktop.org/wayland/wayland-protocols.git | https://github.com/LizardByte-infrastructure/wayland-protocols.git |
-| wlr-protocols     | https://gitlab.freedesktop.org/wlroots/wlr-protocols.git     | https://github.com/LizardByte-infrastructure/wlr-protocols.git     |
+[![Mirror Status](https://img.shields.io/github/actions/workflow/status/lizardbyte-infrastructure/.github/update-mirrors.yml.svg?branch=master&label=mirror%20status&logo=github&style=for-the-badge)](https://github.com/LizardByte-infrastructure/.github/actions/workflows/update-mirrors.yml?query=branch%3Amaster)
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Upstream Repo</th>
+      <th>Mirror</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Simple-Web-Server</td>
+      <td>
+        <a href="https://gitlab.com/eidheim/Simple-Web-Server.git">
+          <img alt="GitLab Last Commit" src="https://img.shields.io/gitlab/last-commit/eidheim%2FSimple-Web-Server?gitlab_url=https%3A%2F%2Fgitlab.com&style=for-the-badge&logo=gitlab">
+        </a>
+      </td>
+      <td>
+        <a href="https://github.com/LizardByte-infrastructure/Simple-Web-Server.git">
+          <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/LizardByte-infrastructure/Simple-Web-Server?style=for-the-badge&logo=github">
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>wayland-protocols</td>
+      <td>
+        <a href="https://gitlab.freedesktop.org/wayland/wayland-protocols.git">
+          <img alt="GitLab Last Commit" src="https://img.shields.io/gitlab/last-commit/wayland%2Fwayland-protocols?gitlab_url=https%3A%2F%2Fgitlab.freedesktop.org&style=for-the-badge&logo=gitlab">
+        </a>
+      </td>
+      <td>
+        <a href="https://github.com/LizardByte-infrastructure/wayland-protocols.git">
+          <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/LizardByte-infrastructure/wayland-protocols?style=for-the-badge&logo=github">
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>wlr-protocols</td>
+      <td>
+        <a href="https://gitlab.freedesktop.org/wlroots/wlr-protocols.git">
+          <img alt="GitLab Last Commit" src="https://img.shields.io/gitlab/last-commit/wlroots%2Fwlr-protocols?gitlab_url=https%3A%2F%2Fgitlab.freedesktop.org&style=for-the-badge&logo=gitlab">
+        </a>
+      </td>
+      <td>
+        <a href="https://github.com/LizardByte-infrastructure/wlr-protocols.git">
+          <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/LizardByte-infrastructure/wlr-protocols?style=for-the-badge&logo=github">
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ## 💲 Donate
 [![GitHub Sponsors](https://img.shields.io/github/sponsors/lizardbyte?label=Github%20Sponsors&style=for-the-badge&color=green&logo=githubsponsors)](https://github.com/sponsors/LizardByte)
