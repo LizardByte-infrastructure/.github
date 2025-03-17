@@ -1,0 +1,29 @@
+---
+name: Update mirrors
+
+on:
+  schedule:
+    - cron: '0 20 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-mirrors:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - source_repo: "gitlab.com/eidheim/Simple-Web-Server.git"
+            target_repo: "github.com/LizardByte-infrastructure/Simple-Web-Server.git"
+          - source_repo: "gitlab.freedesktop.org/wayland/wayland-protocols.git"
+            target_repo: "github.com/LizardByte-infrastructure/wayland-protocols.git"
+          - source_repo: "gitlab.freedesktop.org/wlroots/wlr-protocols.git"
+            target_repo: "github.com/LizardByte-infrastructure/wlr-protocols.git"
+    steps:
+      - name: Clone source repo
+        run: git clone --bare https://${{ matrix.source_repo }} .
+
+      - name: Push target repo
+        env:
+          GIT_TOKEN: ${{ secrets.GH_PAT }}
+        run: git push --mirror https://x-access-token:${GIT_TOKEN}@${{ matrix.target_repo }}
