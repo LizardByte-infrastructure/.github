@@ -11,14 +11,21 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
+      max-parallel: 2
       matrix:
         include:
+          - source_repo: "gitlab.freedesktop.org/xorg/lib/libxcvt.git"
+            target_repo: "github.com/LizardByte-infrastructure/libxcvt.git"
           - source_repo: "gitlab.com/eidheim/Simple-Web-Server.git"
             target_repo: "github.com/LizardByte-infrastructure/Simple-Web-Server.git"
           - source_repo: "gitlab.freedesktop.org/wayland/wayland-protocols.git"
             target_repo: "github.com/LizardByte-infrastructure/wayland-protocols.git"
           - source_repo: "gitlab.freedesktop.org/wlroots/wlr-protocols.git"
             target_repo: "github.com/LizardByte-infrastructure/wlr-protocols.git"
+          - source_repo: "gitlab.freedesktop.org/xorg/app/xauth.git"
+            target_repo: "github.com/LizardByte-infrastructure/xauth.git"
+          - source_repo: "gitlab.freedesktop.org/xorg/xserver.git"
+            target_repo: "github.com/LizardByte-infrastructure/xserver.git"
     steps:
       - name: Clone source repo
         run: git clone --bare https://${{ matrix.source_repo }} .

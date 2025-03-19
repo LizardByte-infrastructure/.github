@@ -77,6 +77,19 @@
   </thead>
   <tbody>
     <tr>
+      <td>libxcvt</td>
+      <td>
+        <a href="https://gitlab.freedesktop.org/xorg/lib/libxcvt.git">
+          <img alt="GitLab Last Commit" src="https://img.shields.io/gitlab/last-commit/xorg%2Flib%2Flibxcvt?gitlab_url=https%3A%2F%2Fgitlab.freedesktop.org&style=for-the-badge&logo=gitlab">
+        </a>
+      </td>
+      <td>
+        <a href="https://github.com/LizardByte-infrastructure/libxcvt.git">
+          <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/LizardByte-infrastructure/libxcvt?style=for-the-badge&logo=github">
+        </a>
+      </td>
+    </tr>
+    <tr>
       <td>Simple-Web-Server</td>
       <td>
         <a href="https://gitlab.com/eidheim/Simple-Web-Server.git">
@@ -112,6 +125,32 @@
       <td>
         <a href="https://github.com/LizardByte-infrastructure/wlr-protocols.git">
           <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/LizardByte-infrastructure/wlr-protocols?style=for-the-badge&logo=github">
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>xauth</td>
+      <td>
+        <a href="https://gitlab.freedesktop.org/xorg/app/xauth.git">
+          <img alt="GitLab Last Commit" src="https://img.shields.io/gitlab/last-commit/xorg%2Fapp%2Fxauth?gitlab_url=https%3A%2F%2Fgitlab.freedesktop.org&style=for-the-badge&logo=gitlab">
+        </a>
+      </td>
+      <td>
+        <a href="https://github.com/LizardByte-infrastructure/xauth.git">
+          <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/LizardByte-infrastructure/xauth?style=for-the-badge&logo=github">
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>xserver</td>
+      <td>
+        <a href="https://gitlab.freedesktop.org/xorg/xserver.git">
+          <img alt="GitLab Last Commit" src="https://img.shields.io/gitlab/last-commit/xorg%2Fxserver?gitlab_url=https%3A%2F%2Fgitlab.freedesktop.org&style=for-the-badge&logo=gitlab">
+        </a>
+      </td>
+      <td>
+        <a href="https://github.com/LizardByte-infrastructure/xserver.git">
+          <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/LizardByte-infrastructure/xserver?style=for-the-badge&logo=github">
         </a>
       </td>
     </tr>
