@@ -155,6 +155,19 @@
       </td>
     </tr>
     <tr>
+      <td>SVT-AV1</td>
+      <td>
+        <a href="https://gitlab.com/AOMediaCodec/SVT-AV1.git">
+          <img alt="GitLab Last Commit" src="https://img.shields.io/gitlab/last-commit/AOMediaCodec%2FSVT-AV1?gitlab_url=https%3A%2F%2Fgitlab.com&style=for-the-badge&logo=gitlab">
+        </a>
+      </td>
+      <td>
+        <a href="https://github.com/LizardByte-infrastructure/SVT-AV1.git">
+          <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/LizardByte-infrastructure/SVT-AV1?style=for-the-badge&logo=github">
+        </a>
+      </td>
+    </tr>
+    <tr>
       <td>wayland-protocols</td>
       <td>
         <a href="https://gitlab.freedesktop.org/wayland/wayland-protocols.git">
@@ -177,6 +190,33 @@
       <td>
         <a href="https://github.com/LizardByte-infrastructure/wlr-protocols.git">
           <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/LizardByte-infrastructure/wlr-protocols?style=for-the-badge&logo=github">
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>x264</td>
+      <td>
+        <a href="https://code.videolan.org/videolan/x264.git">
+          <img alt="GitLab Last Commit" src="https://img.shields.io/gitlab/last-commit/videolan%2Fx264?gitlab_url=https%3A%2F%2Fcode.videolan.org&style=for-the-badge&logo=gitlab">
+        </a>
+      </td>
+      <td>
+        <a href="https://github.com/LizardByte-infrastructure/x264.git">
+          <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/LizardByte-infrastructure/x264?style=for-the-badge&logo=github">
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>x265_git</td>
+      <td>
+        <a href="https://bitbucket.org/multicoreware/x265_git.git">
+          <img alt="BitBucket Last Commit" src="https://img.shields.io/bitbucket/last-commit/multicoreware/x265_git/master?style=for-the-badge&logo=bitbucket
+">
+        </a>
+      </td>
+      <td>
+        <a href="https://github.com/LizardByte-infrastructure/x265_git.git">
+          <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/LizardByte-infrastructure/x265_git?style=for-the-badge&logo=github">
         </a>
       </td>
     </tr>

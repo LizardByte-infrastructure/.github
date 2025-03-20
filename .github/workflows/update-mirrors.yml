@@ -8,6 +8,7 @@ on:
 
 jobs:
   update-mirrors:
+    name: Update Mirrors (${{ matrix.source_repo }})
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
@@ -26,10 +27,16 @@ jobs:
             target_repo: "github.com/LizardByte-infrastructure/libxmu.git"
           - source_repo: "gitlab.com/eidheim/Simple-Web-Server.git"
             target_repo: "github.com/LizardByte-infrastructure/Simple-Web-Server.git"
+          - source_repo: "gitlab.com/AOMediaCodec/SVT-AV1.git"
+            target_repo: "github.com/LizardByte-infrastructure/SVT-AV1.git"
           - source_repo: "gitlab.freedesktop.org/wayland/wayland-protocols.git"
             target_repo: "github.com/LizardByte-infrastructure/wayland-protocols.git"
           - source_repo: "gitlab.freedesktop.org/wlroots/wlr-protocols.git"
             target_repo: "github.com/LizardByte-infrastructure/wlr-protocols.git"
+          - source_repo: "code.videolan.org/videolan/x264.git"
+            target_repo: "github.com/LizardByte-infrastructure/x264.git"
+          - source_repo: "bitbucket.org/multicoreware/x265_git.git"
+            target_repo: "github.com/LizardByte-infrastructure/x265_git.git"
           - source_repo: "gitlab.freedesktop.org/xorg/app/xauth.git"
             target_repo: "github.com/LizardByte-infrastructure/xauth.git"
           - source_repo: "gitlab.freedesktop.org/xorg/xserver.git"
