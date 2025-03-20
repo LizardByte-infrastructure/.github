@@ -210,8 +210,7 @@
       <td>x265_git</td>
       <td>
         <a href="https://bitbucket.org/multicoreware/x265_git.git">
-          <img alt="BitBucket Last Commit" src="https://img.shields.io/bitbucket/last-commit/multicoreware/x265_git/master?style=for-the-badge&logo=bitbucket
-">
+          <img alt="BitBucket Last Commit" src="https://img.shields.io/bitbucket/last-commit/multicoreware/x265_git/master?style=for-the-badge&logo=bitbucket">
         </a>
       </td>
       <td>
