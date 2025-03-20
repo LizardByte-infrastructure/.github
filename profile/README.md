@@ -77,6 +77,32 @@
   </thead>
   <tbody>
     <tr>
+      <td>font-util</td>
+      <td>
+        <a href="https://gitlab.freedesktop.org/xorg/font/util.git">
+          <img alt="GitLab Last Commit" src="https://img.shields.io/gitlab/last-commit/xorg%2Ffont%2Futil?gitlab_url=https%3A%2F%2Fgitlab.freedesktop.org&style=for-the-badge&logo=gitlab">
+        </a>
+      </td>
+      <td>
+        <a href="https://github.com/LizardByte-infrastructure/font-util.git">
+          <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/LizardByte-infrastructure/font-util?style=for-the-badge&logo=github">
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>libfontenc</td>
+      <td>
+        <a href="https://gitlab.freedesktop.org/xorg/lib/libfontenc.git">
+          <img alt="GitLab Last Commit" src="https://img.shields.io/gitlab/last-commit/xorg%2Flib%2Flibfontenc?gitlab_url=https%3A%2F%2Fgitlab.freedesktop.org&style=for-the-badge&logo=gitlab">
+        </a>
+      </td>
+      <td>
+        <a href="https://github.com/LizardByte-infrastructure/libfontenc.git">
+          <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/LizardByte-infrastructure/libfontenc?style=for-the-badge&logo=github">
+        </a>
+      </td>
+    </tr>
+    <tr>
       <td>libxcvt</td>
       <td>
         <a href="https://gitlab.freedesktop.org/xorg/lib/libxcvt.git">
@@ -86,6 +112,32 @@
       <td>
         <a href="https://github.com/LizardByte-infrastructure/libxcvt.git">
           <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/LizardByte-infrastructure/libxcvt?style=for-the-badge&logo=github">
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>libxfont</td>
+      <td>
+        <a href="https://gitlab.freedesktop.org/xorg/lib/libxfont.git">
+          <img alt="GitLab Last Commit" src="https://img.shields.io/gitlab/last-commit/xorg%2Flib%2Flibxfont?gitlab_url=https%3A%2F%2Fgitlab.freedesktop.org&style=for-the-badge&logo=gitlab">
+        </a>
+      </td>
+      <td>
+        <a href="https://github.com/LizardByte-infrastructure/libxfont.git">
+          <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/LizardByte-infrastructure/libxfont?style=for-the-badge&logo=github">
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>libxmu</td>
+      <td>
+        <a href="https://gitlab.freedesktop.org/xorg/lib/libxmu.git">
+          <img alt="GitLab Last Commit" src="https://img.shields.io/gitlab/last-commit/xorg%2Flib%2Flibxmu?gitlab_url=https%3A%2F%2Fgitlab.freedesktop.org&style=for-the-badge&logo=gitlab">
+        </a>
+      </td>
+      <td>
+        <a href="https://github.com/LizardByte-infrastructure/libxmu.git">
+          <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/LizardByte-infrastructure/libxmu?style=for-the-badge&logo=github">
         </a>
       </td>
     </tr>

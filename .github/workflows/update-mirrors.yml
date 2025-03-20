@@ -14,8 +14,16 @@ jobs:
       max-parallel: 2
       matrix:
         include:
+          - source_repo: "gitlab.freedesktop.org/xorg/font/util.git"
+            target_repo: "github.com/LizardByte-infrastructure/font-util.git"
+          - source_repo: "gitlab.freedesktop.org/xorg/lib/libfontenc.git"
+            target_repo: "github.com/LizardByte-infrastructure/libfontenc.git"
           - source_repo: "gitlab.freedesktop.org/xorg/lib/libxcvt.git"
             target_repo: "github.com/LizardByte-infrastructure/libxcvt.git"
+          - source_repo: "gitlab.freedesktop.org/xorg/lib/libxfont.git"
+            target_repo: "github.com/LizardByte-infrastructure/libxfont.git"
+          - source_repo: "gitlab.freedesktop.org/xorg/lib/libxmu.git"
+            target_repo: "github.com/LizardByte-infrastructure/libxmu.git"
           - source_repo: "gitlab.com/eidheim/Simple-Web-Server.git"
             target_repo: "github.com/LizardByte-infrastructure/Simple-Web-Server.git"
           - source_repo: "gitlab.freedesktop.org/wayland/wayland-protocols.git"
