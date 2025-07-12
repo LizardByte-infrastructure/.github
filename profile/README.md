@@ -90,6 +90,19 @@
       </td>
     </tr>
     <tr>
+      <td>libevdev</td>
+      <td>
+        <a href="https://gitlab.freedesktop.org/libevdev/libevdev.git">
+          <img alt="GitLab Last Commit" src="https://img.shields.io/gitlab/last-commit/libevdev%2Flibevdev?gitlab_url=https%3A%2F%2Fgitlab.freedesktop.org&style=for-the-badge&logo=gitlab">
+        </a>
+      </td>
+      <td>
+        <a href="https://github.com/LizardByte-infrastructure/libevdev.git">
+          <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/LizardByte-infrastructure/libevdev?style=for-the-badge&logo=github">
+        </a>
+      </td>
+    </tr>
+    <tr>
       <td>libfontenc</td>
       <td>
         <a href="https://gitlab.freedesktop.org/xorg/lib/libfontenc.git">
@@ -99,6 +112,19 @@
       <td>
         <a href="https://github.com/LizardByte-infrastructure/libfontenc.git">
           <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/LizardByte-infrastructure/libfontenc?style=for-the-badge&logo=github">
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>libnotify</td>
+      <td>
+        <a href="https://gitlab.gnome.org/GNOME/libnotify.git">
+          <img alt="GitLab Last Commit" src="https://img.shields.io/gitlab/last-commit/GNOME%2Flibnotify?gitlab_url=https%3A%2F%2Fgitlab.gnome.org&style=for-the-badge&logo=gitlab">
+        </a>
+      </td>
+      <td>
+        <a href="https://github.com/LizardByte-infrastructure/libnotify.git">
+          <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/LizardByte-infrastructure/libnotify?style=for-the-badge&logo=github">
         </a>
       </td>
     </tr>
